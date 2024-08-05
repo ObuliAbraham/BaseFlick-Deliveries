@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregnancy Dashboard</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #3335d40a;
+    }
+    .dashboard {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      margin: 20px;
+      width: 250px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(31, 7, 139, 0.1);
+    }
+    .card-header {
+      background-color: #1f0786;
+      color: #fff;
+      padding: 10px;
+      border-radius: 10px 10px 0 0;
+    }
+    .card-content {
+      padding: 20px;
+    }
+    .card-content h2 {
+      margin-top: 0;
+    }
+    .card-content ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .card-content li {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .card-content li:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <div class="card">
+      <div class="card-header">Baby's Development</div>
+      <div class="card-content">
+        <h2>Week 12</h2>
+        <p>Your baby is now the size of a plum!</p>
+        <ul>
+          <li>Major organs are functioning</li>
+          <li>Skin starts to thicken</li>
+          <li>Fingerprints are formed</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">Symptoms</div>
+      <div class="card-content">
+        <h2>This Week</h2>
+        <ul>
+          <li>Morning sickness</li>
+          <li>Fatigue</li>
+          <li>Mood swings</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">To-Do List</div>
+      <div class="card-content">
+        <h2>Upcoming Appointments</h2>
+        <ul>
+          <li>Ultrasound: March 15th</li>
+          <li>Prenatal massage: March 20th</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">Nutrition</div>
+      <div class="card-content">
+        <h2>Healthy Snacks</h2>
+        <ul>
+          <li>Fresh fruits</li>
+          <li>Nuts and seeds</li>
+          <li>Whole grain crackers</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

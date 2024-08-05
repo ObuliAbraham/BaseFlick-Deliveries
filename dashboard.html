@@ -1,0 +1,54 @@
+<!-- Header -->
+<header>
+    <nav>
+      <img src="logo.png" alt="Company Logo">
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="orders.html">Orders</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="logout.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Main Section -->
+  <main>
+    <section class="welcome-message">
+      <h2>Welcome, {{ username }}!</h2>
+    </section>
+  
+    <section class="order-history">
+      <h2>Order History</h2>
+      <table>
+        <tr>
+          <th>Order ID</th>
+          <th>Date</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td>#1234</td>
+          <td>2023-02-20</td>
+          <td>In Transit</td>
+          <td><button>View</button> <button>Track</button></td>
+        </tr>
+        <tr>
+          <td>#5678</td>
+          <td>2023-02-15</td>
+          <td>Delivered</td>
+          <td><button>View</button> <button>Track</button></td>
+        </tr>
+      </table>
+    </section>
+  
+    <section class="profile-summary">
+      <h2>Profile Summary</h2>
+      <ul>
+        <li><strong>Name:</strong> {{ username }}</li>
+        <li><strong>Email:</strong> {{ email }}<li><strong>Phone:</strong> {{ phone }}</li>
+    </ul>
+    <button>Edit Profile</button>
+  </section>
+</main>
+
+<!-- Footer (same as Home Page) -->
