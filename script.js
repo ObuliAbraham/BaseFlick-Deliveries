@@ -23,3 +23,8 @@ buttons.forEach((button) => {
 });
 
 // about us
+// Add event listener to call-to-action button
+document.querySelector('.call-to-action button').addEventListener('click', () => {
+  // Add your logic here
+  console.log('Button clicked!');
+});
