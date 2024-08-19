@@ -1,4 +1,5 @@
 /* Global Styles */
+@media (min-width: 1200px) {
 
 * {
   box-sizing: border-box;
@@ -754,4 +755,4 @@ footer {
         margin-top: 20px;
     }
 }
-
+}
