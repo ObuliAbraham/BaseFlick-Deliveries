@@ -24,7 +24,7 @@ A modern, responsive website for BaseFlick Deliveries, a leading delivery servic
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/baseflick-deliveries.git
+git clone https://github.com/ObuliAbraham/baseflick-deliveries.git
 ```
 
 2. Open `index.html` in your web browser to view the website.
@@ -57,4 +57,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 BaseFlick Deliveries - [contact@baseflick.com](mailto:contact@baseflick.com)
 
-Project Link: [https://github.com/yourusername/baseflick-deliveries](https://github.com/yourusername/baseflick-deliveries) 
+Project Link: [https://github.com/ObuliAbraham/baseflick-deliveries](https://github.com/ObuliAbraham/baseflick-deliveries) 
